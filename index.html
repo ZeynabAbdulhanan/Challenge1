@@ -7,7 +7,7 @@
 		<link type="text/css" href="styles/my_style.css" rel="stylesheet" />
 		<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="scripts/my_scripts.js"></script> 
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 	</head>
 	<body>
 		<h1>Reizen naar Mars. 2030</h1>
@@ -16,32 +16,8 @@
        </div>
         
         <script>
-              google.charts.load('current', {'packages':['bar']});
-              google.charts.setOnLoadCallback(drawStuff);
 
-              function drawStuff() {
-                var data = new google.visualization.arrayToDataTable([
-                  ['Algemene data over ITS', 'kN,kW'],
-                  ["Lancering", 127.800],
-                  ["Solar arrays deplay", 200],
-                ]);
-
-                var options = {
-                  title: 'Chess opening moves',
-                  width: 700,
-                  legend: { position: 'none' },
-                  bars: 'horizontal', // Required for Material Bar Charts.
-                  axes: {
-                    x: {
-                      0: { side: 'top', label: 'kN, kW'} // Top x-axis.
-                    }
-                  },
-                  bar: { groupWidth: "90%" }
-                };
-
-                var chart = new google.charts.Bar(document.getElementById('top_x_div'));
-                chart.draw(data, options);
-              };
-     </script>
+        </script>
 	</body>
 </html>
+
