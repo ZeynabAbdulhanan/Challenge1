@@ -1,5 +1,5 @@
 body{
-	background-color: yellow;
+	background-color: red;
 	color: #666666;
 	font-family: verdana;
 	font-size: 10px;
@@ -13,12 +13,6 @@ body{
 	overflow: hidden;
 }
 
-#gerrit	 {
-	top: 360px;
-	left: 20px;
-	width: 200px;
-	height: 164px;
-}
 
 img {
 	position: absolute;
