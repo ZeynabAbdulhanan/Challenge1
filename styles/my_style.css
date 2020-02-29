@@ -4,16 +4,3 @@ body{
 	font-family: verdana;
 	font-size: 10px;
 }
-
-#woonkamer {
-	position: relative;
-	width: 800px;
-	height: 574px;
-	background-color: #333333;
-	overflow: hidden;
-}
-
-
-img {
-	position: absolute;
-}
