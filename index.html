@@ -10,7 +10,38 @@
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	</head>
 	<body>
-		<h1>Reizen naar Mars,2030</h1>
-        <hr>
+		<h1>Reizen naar Mars. 2030</h1>
+        <div id="top_x_div" style="width: 900px; height: 500px;">
+             <h3>Onze voertuig (ITS)</h3>
+       </div>
+        
+        <script>
+              google.charts.load('current', {'packages':['bar']});
+              google.charts.setOnLoadCallback(drawStuff);
+
+              function drawStuff() {
+                var data = new google.visualization.arrayToDataTable([
+                  ['Algemene data over ITS', 'kN,kW'],
+                  ["Lancering", 127.800],
+                  ["Solar arrays deplay", 200],
+                ]);
+
+                var options = {
+                  title: 'Chess opening moves',
+                  width: 700,
+                  legend: { position: 'none' },
+                  bars: 'horizontal', // Required for Material Bar Charts.
+                  axes: {
+                    x: {
+                      0: { side: 'top', label: 'kN, kW'} // Top x-axis.
+                    }
+                  },
+                  bar: { groupWidth: "90%" }
+                };
+
+                var chart = new google.charts.Bar(document.getElementById('top_x_div'));
+                chart.draw(data, options);
+              };
+     </script>
 	</body>
 </html>
