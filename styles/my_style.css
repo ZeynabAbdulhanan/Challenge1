@@ -1,21 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-	background-color:black; 
+    background: black;
 	color: #666666;
 	font-family: verdana;
 	font-size: 10px;
 }
 
+.titel{
+    margin: 2px;
+    padding: 2px;
+}
 h1{
-    font-size: 16px;
+    font-size: 20px;
     color: white;
+    text-align: center;
 }
 
-h2{
-    font-size: 160x; 
-    color: white;
-    float: right;
+.logo{
+    width: 130px;
+    padding: 15px;
+    margin-left: 120px;
 }
 
-#top_x_div{
-    background: black;
+.img{
+    padding: 5px;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 300px;
+}
+
+
+.content_box1, .content_box2, .content_box3, .content_box4{
+    width:350px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 1px;
+    padding: 5px;
+}
+
+.content_box1, .content_box2, .content_box3, .content_box4 h2{
+   padding: 5px;    
+}
+
+
+
+@media screen and (min-width:600px){
+    .titel h1{
+        float: left;
+        padding-bottom: 10px;
+        margin-left: 5px;
+    }
+    
+    .logo{
+        margin-left: 320px;
+        float: right;
+        padding-bottom: 10px;
+    }
+    
+    .img{
+        margin-left: 200px;
+        margin-right: 190px;
+        padding: 10px;
+    }
+    
+    .content{
+        
+        display: flex;
+        flex-flow: row wrap;/*flex direction en flex wrap*/
+        align-items: center;
+        justify-content:flex-start;/*alle boxes in het midden van de webpagina*/
+    }
+    .content_box1, .content_box2, .content_box3, .content_box4{
+        width: 350px;
+        height: 250px;
+        margin: 10px;
+        padding: 10px;
+        
+        
+    }
+}
+
+@media screen and (min-width:1000px){
+    .img{
+        float:right;
+    }
+    
+    .content{
+        padding-top: 60px;
+        display: flex;
+        flex-flow: row wrap;/*flex direction en flex wrap*/
+        align-items: center;
+        justify-content: center;/*alle boxes in het midden van de webpagina*/
+    }
+    
+    .content_box2, .content_box3, .content_box4{
+        display: block;
+        
+    }
+
 }
