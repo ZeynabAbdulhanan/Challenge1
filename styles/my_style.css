@@ -88,21 +88,35 @@ img{
 }
 
 @media screen and (min-width:1000px){
+    .logo{
+        grid-area: logo
+    }
     .img{
-        float:right;
+        grid-area: image
     }
     
-    .content{
-        padding-top: 60px;
-        display: flex;
-        flex-flow: column nowrap;/*flex direction en flex wrap*/
-        align-items:stretch;
-        justify-content:space-around;/*alle boxes in het midden van de webpagina*/
+    .content_box1{
+        grid-area: box1
     }
     
-    .content_box2, .content_box3, .content_box4{
-        display: flex;
-        flex-flow: row wrap;
+    .content_box2{
+        grid-area: box2
     }
-
+    
+    .content_box3{
+        grid-area: box3
+    }
+    
+    .content_box4{
+        grid-area: box4
+    }
+    
+    .content, .titel, .img{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 300px 300px;
+    grid-column-gap: 10px;
+        
+    }
+    
 }
