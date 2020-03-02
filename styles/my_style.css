@@ -95,14 +95,14 @@ img{
     .content{
         padding-top: 60px;
         display: flex;
-        flex-flow: row wrap;/*flex direction en flex wrap*/
-        align-items: center;
-        justify-content: center;/*alle boxes in het midden van de webpagina*/
+        flex-flow: column nowrap;/*flex direction en flex wrap*/
+        align-items:stretch;
+        justify-content:space-around;/*alle boxes in het midden van de webpagina*/
     }
     
     .content_box2, .content_box3, .content_box4{
-        display: block;
-        
+        display: flex;
+        flex-flow: row wrap;
     }
 
 }
