@@ -100,18 +100,17 @@ img{
         grid-row: 3;
     }
     
-}
-    .content_box1, .content_box2, .content_box3, .content_box4{
+     .content_box1, .content_box2, .content_box3{
         width: 350px;
         height: 250px;
         margin: 10px;
         padding: 10px;
-        
-        
     }
+    
 }
+   
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1100px){
     body{
         margin: 10px;
         padding: 10px;
