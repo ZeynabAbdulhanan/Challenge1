@@ -1,7 +1,8 @@
 # Challenge1
 Challenge1
 
-Link voor de website:https://zeynababdulhanan.github.io/Challenge1/
+Link voor repository page on github in browser: https://github.com/ZeynabAbdulhanan/Challenge1
+Link voor de website: https://zeynababdulhanan.github.io/Challenge1/
 
 Voor het uitvoeren van deze challenge heb ik alleerst de website van spaceX gekeken en ik heb vidoe's op Youtube gezien over ITS en hoe 
 werkt het en hoe het eruit ziet. Ik heb ook video's gekeken over de algemeene informatie van ITS, zoals lancering. Ik heb alle informatie die nodig verzameld. Aangzien dat ik de vrijheid had om te bepalen welke informatie wil weergeven, heb ik gefocust op de voertuig zelf en ook het verschill tussen aarde en mars, zoals temperatuur en atmosfeer van iedere planeet. Ik heb ook onderzocht hoe lang deze reis zal duren en hoeveel dagen mensen daar zullen blijven.   
