@@ -18,77 +18,49 @@
                  <img class="img" src="mars.jpg">
             </div><br>
             <div class="content_box1">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-content">
-                                <h2>Onze voertuig</h2>
-                                <canvas id="myChart"></canvas>
-                                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-                            </div>
-                        </div>
-                    </div>
+                <div class="card-content">
+                    <h2>Onze voertuig</h2>
+                    <canvas id="myChart"></canvas>
+                    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
                 </div>  
             </div><br>
 
             <div class="content_box2">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-content">
-                                <h2>Max.Q tijdens de reis</h2>
-                                <canvas id="mySecondChart"></canvas>
-                                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-                            </div>
-                        </div>
-                    </div>
+                <div class="card-content">
+                    <h2>Max.Q tijdens de reis</h2>
+                    <canvas id="mySecondChart"></canvas>
+                    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
                 </div>  
             </div><br>
 
             <div class="content_box3">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-content">
-                                <h2>ITS onderdelen</h2>
-                                <canvas id="myThirdChart"></canvas>
-                                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-                            </div>
-                        </div>
-                    </div>
+                <div class="card-content">
+                    <h2>ITS onderdelen</h2>
+                    <canvas id="myThirdChart"></canvas>
+                    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
                 </div>  
             </div><br>
 
 
             <div class="content_box4">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-content">
-                                <h2>Mars & Aarde</h2>
-                                <canvas id="myFourthChart"></canvas>
-                                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div><br>
+                <div class="card-content">
+                    <h2>Mars & Aarde</h2>
+                    <canvas id="myFourthChart"></canvas>
+                    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+                </div>
+            </div>
+            <br>
             
             <div class="content_box5">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-content">
-                                <h2>Duur van de reis (in maanden)</h2>
-                                <canvas id="myFifthChart"></canvas>
-                                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
+                <div class="card-content">
+                     <h2>Duur van de reis (in maanden)</h2>
+                     <canvas id="myFifthChart"></canvas>
+                     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+                </div>
             </div>
         </div> 
         
+<!--Javascript code van de eerstechart-->        
         <script type="text/javascript">
             const CHART = document.getElementById("myChart");
             console.log(Chart.defaults.scale.ticks);
@@ -112,8 +84,8 @@
                             pointBackgroundColor: "#386363",
                             pointBorderWidth:1,
                             pointHoverRadius:5,
-                            pointHoverBackgroundColor:"#386363",
-                            pointHoverBorderColor:"#DCDCDC",
+                            pointHoverBackgroundColor:"#D1F6E1",
+                            pointHoverBorderColor:"##D1F6E1",
                             pointHoverBorderWidth:2,
                             pointRadius:1,
                             pointHitRadius:10,
@@ -125,7 +97,7 @@
             
         </script>
         
-        
+<!--Javascript code van de tweedechart-->            
          <script type="text/javascript">
             const BARCHART = document.getElementById("mySecondChart");
             let mySecondChart = new Chart(BARCHART , {
@@ -159,7 +131,8 @@
             });
             
         </script>
-        
+  
+<!--Javascript code van de derdechart-->            
         <script type="text/javascript">
             const COMCHART = document.getElementById("myThirdChart");
             let myThirdChart = new Chart(COMCHART , {
@@ -214,7 +187,7 @@
             
         </script>
         
-                
+ <!--Javascript code van de vierdechart-->                   
         <script type="text/javascript">
             const VERCHART = document.getElementById("myFourthChart");
             let myFourthChart = new Chart(VERCHART , {
@@ -268,7 +241,8 @@
             });
             
         </script>
-        
+
+<!--Javascript code van de vijfdechart-->            
         <script type="text/javascript">
             const PIECHART = document.getElementById("myFifthChart");
             let myFifthChart = new Chart(PIECHART , {
