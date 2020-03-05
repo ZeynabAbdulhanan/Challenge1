@@ -246,12 +246,12 @@
         <script type="text/javascript">
             const PIECHART = document.getElementById("myFifthChart");
             let myFifthChart = new Chart(PIECHART , {
-                type:'horizontalBar',
+                type:'pie',
                 data:{
                     labels:["looptijd", "verblijfsduur"],
                     datasets:[
                         {
-                            label: "lootijd, verblijfsduur",
+                            label: "lootijd",
                             fill: false,
                             backgroundColor:"#386363",
                             borderColor:"#4BC0C0",
@@ -271,7 +271,6 @@
                             pointHitRadius:10,
                             data:[8,2],
                         }
-                        
                     ]
                 }
             });
