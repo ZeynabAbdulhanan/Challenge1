@@ -13,3 +13,5 @@ Mijn doelgroep is de reizigers die graag naar Mars willen. Daarvoor heb ik bedac
 Ik heb zwarte achtergrond gekozen om beetje in dezelfde sfeer van de website van spaceX te kunnen blijven. Ik heb gekozen voor 5 data visulisaties om genoeg informatie te geven. Ik heb 5 verschillende datavislusaties gebruikt, ik probeerde de beste geschikte datavisualtie te passen bij de gekozen informatie. Daarvoor heb ik ook gelezen over welke chart en waarvoor wordt het gebruikt. Ik probeerde data die ik heb met geschikte chart te doen. 
 
 Ik heb een foto van Mars aan mijn dashboard toegevoegd. Dit heb ik gedaan om de onderwerp van de dashboard te ondersteunen. Kleuren passen veel bij elkaar, ik heb zwart als achtergrond, en de groen (met verschillende shadows) gebruikt voor het content van elke chart, die twee passen bij elkaar en maakt dashboard overzichtelijk en nauwkeurig. Bij de foto van Mars heb ik shadow gebruikt, ik denk dat oranje shadow trekt de aandacht van de gebruiker.  
+
+Zeynab Abdulhanan - klas 2C - 18088481
